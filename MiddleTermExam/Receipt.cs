@@ -20,16 +20,25 @@ namespace MiddleTermExam
         
         //private variables
         private int receiptNumber;
+        private string dateOfPurchase;
         private int customerNumber;
+        private string customerFirstName;
+        private string customerLastName;
+        private string customerPhoneNumber;
         private int itemNumber;
         private decimal unitPrice;
         private int qtyPurchased;
 
         //Constructor
-        public Receipt(int rNum, int cNum, int iNum, decimal uPrice, int qty)
+        public Receipt(int rNum, string doPur, int cNum, string cFName, string cLName,
+                        string cPNumber, int iNum, decimal uPrice, int qty)
         {
             ReceiptNumber = rNum;
+            DateOfPurchase = doPur;
             CustomerNumber = cNum;
+            CustomerFirstName = cFName;
+            CustomerLastName = cLName;
+            customerPhoneNumber = cPNumber;
             ItemNumber = iNum;
             UnitPrice = uPrice;
             QtyPurchased = qty;
@@ -49,6 +58,17 @@ namespace MiddleTermExam
             }
         }
 
+        public string DateOfPurchase
+        {
+            get
+            {
+                return dateOfPurchase;
+            }
+            set
+            {
+                dateOfPurchase = value;
+            }
+        }
         public int CustomerNumber
         {
             get
@@ -61,6 +81,42 @@ namespace MiddleTermExam
                 {
                     customerNumber = value;
                 }
+            }
+        }
+
+        public string CustomerFirstName
+        {
+            get
+            {
+                return customerFirstName;
+            }
+            set
+            {
+                customerFirstName = value;
+            }
+        }
+
+        public string CustomerLastName
+        {
+            get
+            {
+                return customerLastName;
+            }
+            set
+            {
+                customerLastName = value;
+            }
+        }
+
+        public string CustomerPhoneNumber
+        {
+            get
+            {
+                return customerPhoneNumber;
+            }
+            set
+            {
+                customerPhoneNumber = value;
             }
         }
 
