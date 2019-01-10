@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiddleTermExam
 {
-    class Receipt
+     public class Receipt
     {
         //Question1:constructor name ?? whey it is wrong when setting it to Receipt?
         //Answer1: no answer. errors dismiss by themselves

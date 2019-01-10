@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DABEFA06-AE4F-4AB8-96A2-0E017F4CAB45}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>MiddleTermExam</RootNamespace>
     <AssemblyName>MiddleTermExam</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
