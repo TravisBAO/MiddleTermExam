@@ -10,6 +10,10 @@ namespace MiddleTermExam
     {
         static void Main(string[] args)
         {
+
+            SplitString sss = new SplitString();
+
+            sss.SplitBehavior("abc def");
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 
