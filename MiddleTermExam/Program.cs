@@ -14,6 +14,27 @@ namespace MiddleTermExam
             SplitString sss = new SplitString();
 
             sss.SplitBehavior("abc def");
+
+            int[] myIntArray = new int[6] { 1, 2, 3, 4, 5, 6 };
+
+            foreach (var item in myIntArray)
+            {
+                Console.WriteLine(item);
+            }
+            _2Sum Test2Sum = new _2Sum();
+
+            Test2Sum.nums = myIntArray;
+            Test2Sum.target = 3;
+            
+            //public 
+
+            Console.WriteLine("Print the return array!!!");
+            for (int i = 0; i < Test2Sum.TwoSum().Length; i++)
+            {
+                Console.WriteLine(Test2Sum.ReturnArray[i]);
+            }
+            //Console.WriteLine("The return array is {0}:", );
+
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
 

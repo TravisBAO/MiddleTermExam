@@ -8,21 +8,23 @@ namespace MiddleTermExam
 {
     class _2Sum
     {
-        static int[] TwoSum(int[] nums, int target)
+        public int[] ReturnArray = new int[2];
+        public int[] nums = new int[6];
+        public int target;
+        
+        public int[] TwoSum()
         {
-            public int[] ReturnArray = new int[2];
-            for (int i = 0; i<nums.length; i++)
+            
+            for (int i = 0; i < nums.Length; i++)
             {
-                for (int j = i + 1; j<nums.length; j++)
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if target == num[i] + num[j]
-                        {
-                            ReturnArray[0] = i;
-                            ReturnArray[1] = j;
-                            break;
-                        }
+                    if (nums[j] == target - nums[i])
+                    {
+                        ReturnArray[0] = i;
+                        ReturnArray[1] = j;
+                    }
                 }
-                break;
             }
             return ReturnArray;
         }
