@@ -11,12 +11,21 @@ namespace MiddleTermExam
         static void Main(string[] args)
         {
 
+            //verify the switch case
+            Verify_aNb SwitchTestCase = new Verify_aNb();
+            SwitchTestCase.a = 100;
+            SwitchTestCase.b = 1;
+
+            SwitchTestCase.Using_Switch();
+
             SplitString sss = new SplitString();
 
             sss.SplitBehavior("abc def");
 
+            //to test 2Sum
             int[] myIntArray = new int[6] { 1, 2, 3, 4, 5, 6 };
 
+            //to print the array with foreach + var
             foreach (var item in myIntArray)
             {
                 Console.WriteLine(item);
@@ -24,7 +33,7 @@ namespace MiddleTermExam
             _2Sum Test2Sum = new _2Sum();
 
             Test2Sum.nums = myIntArray;
-            Test2Sum.target = 3;
+            Test2Sum.target = 2;
             
             //public 
 
