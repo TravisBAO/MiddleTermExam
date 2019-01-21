@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2Sum.cs" />
+    <Compile Include="ReverseInt.cs" />
     <Compile Include="SplitString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
