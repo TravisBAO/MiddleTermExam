@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MiddleTermExam.Quiz_From_Udemy;
 
 namespace MiddleTermExam
 {
@@ -10,12 +11,11 @@ namespace MiddleTermExam
     {
         static void Main(string[] args)
         {
-            //test he ArrayCodingQuiz
-            
-            
-            
-            
-            
+            //verify the array coding quiz
+            ArrarCodingQuiz MyInputVerify = new ArrarCodingQuiz();
+            MyInputVerify.AdditionIntegers();
+
+
             ////verify the switch case
             //Verify_aNb SwitchTestCase = new Verify_aNb();
             //SwitchTestCase.a = 100;
@@ -43,10 +43,10 @@ namespace MiddleTermExam
             //Test2Sum.target = 2;
 
             //to print the array with foreach + var
-            foreach (var item in myIntArray)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in myIntArray)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
 
 
